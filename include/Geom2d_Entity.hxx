@@ -26,7 +26,7 @@ public:
 
   void SetName(const string& theName);
 
-  virtual size_t Area() const = 0;
+  virtual double Area() const = 0;
 
   string Name() const;
 

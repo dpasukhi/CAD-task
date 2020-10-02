@@ -22,7 +22,7 @@ void Geom2d_Ellipse::Init(const string& theName, const double theMinorRadius, co
   myMinorRadius = theMinorRadius;
 }
 
-size_t Geom2d_Ellipse::Area() const
+double Geom2d_Ellipse::Area() const
 {
   return M_PI * myMinorRadius * myMajorRadius;
 }

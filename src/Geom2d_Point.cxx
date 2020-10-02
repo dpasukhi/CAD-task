@@ -35,7 +35,7 @@ double Geom2d_Point::CoordY() const
   return myY;
 }
 
-size_t Geom2d_Point::Area() const
+double Geom2d_Point::Area() const
 {
   return 0.;
 }

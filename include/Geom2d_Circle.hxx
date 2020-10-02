@@ -18,7 +18,7 @@ public:
 
   void Init(const string& theName, const double theRadius, const Geom2d_Point theCoord);
 
-  size_t Area() const override;
+  double Area() const override;
 
   void SetRadius(const double theRadius);
 

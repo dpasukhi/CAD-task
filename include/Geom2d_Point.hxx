@@ -25,7 +25,7 @@ public:
 
   double CoordY() const;
 
-  size_t Area() const override;
+  double Area() const override;
 
 private:
 

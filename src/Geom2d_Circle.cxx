@@ -19,7 +19,7 @@ void Geom2d_Circle::Init(const string& theName, const double theRadius, const Ge
   myCoord = theCoord;
 }
 
-size_t Geom2d_Circle::Area() const
+double Geom2d_Circle::Area() const
 {
   return 2 * M_PI * myRadius;
 }
