@@ -8,8 +8,8 @@
 #define _Geom2d_Entity_HeaderFile
 #define _USE_MATH_DEFINES // for C++
 
-#define Precision 1.e-7
-#define SquarePrecision 1.e-14
+const double Precision = 1.e-7;
+const double SquarePrecision = Precision * Precision;
 
 #include "Entity.hxx"
 #include <string>

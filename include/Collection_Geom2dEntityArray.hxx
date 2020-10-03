@@ -9,8 +9,9 @@
 
 #include "Geom2d_Entity.hxx"
 #include <vector>
+#include <memory>
 
-class Collection_Geom2dEntityArray : public std::vector<Geom2d_Entity*>
+class Collection_Geom2dEntityArray : public std::vector<std::shared_ptr<Geom2d_Entity>>
 {
 public:
 
